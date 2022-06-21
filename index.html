@@ -6,6 +6,7 @@
           <meta http-equiv="X-UA-Compatible" content="IE=Edge">
           <link rel="stylesheet" href="normalize/normalize.css">
           <link rel="stylesheet" href="css/style.css">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
           <title> 404 | CDO-GLOBAL</title>
      </head>
 <body>
@@ -31,7 +32,8 @@
                                     </svg>
                                 </a>   
                           </div>
-                          <nav class="nav-header">
+                          <nav id="navbarHeader" class="nav-header">
+                                <i id="closeMenu" class="fas fa-times"></i>
                                <ul class="header-list-items">
                                 <li class="header-list-item">
                                     <a class="header-list-item-link header-list-item-link___active" href="#">
@@ -100,6 +102,7 @@
                          </div>
                      </div>
                  </div>
+                 <i id="openMenu"  class="fas fa-bars"></i>
       </header>
       <!----end -->
       <main class="main">
@@ -150,6 +153,7 @@
              <div class=" container-footer">
                     <div class="footer-top center--marge">
                         <div class="container container-footer-top">
+                             <div class="footer-top-image-logo">
                             <svg class="footer-logo" width="79" height="30" viewBox="0 0 79 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M14.7612 25.4168C9.25904 25.4168 4.9152 21.3524 4.9152 15.2558C4.9152 9.4495 8.67987 5.09479 14.7612 5.09479C17.3675 5.09479 19.9739 6.25604 21.7114 7.99793L25.1865 4.51416C22.5802 1.90133 18.8155 0.15945 14.7612 0.15945C6.07356 0.15945 -0.0078125 6.54636 -0.0078125 15.2558C-0.0078125 24.5458 6.65274 30.3521 14.7612 30.3521C18.8155 30.3521 22.5802 28.6102 25.1865 25.9974L21.7114 22.5136C19.9739 24.2555 17.3675 25.4168 14.7612 25.4168ZM30.1095 0.449771V30.0618H35.0325C42.2722 30.0618 52.1183 28.0296 52.1183 15.2558C52.1183 2.19165 41.9827 0.449771 35.0325 0.449771H30.1095ZM35.0325 25.1264V5.09479C35.0325 5.09479 47.1953 3.35291 47.1953 14.9655C47.4848 26.8683 35.0325 25.1264 35.0325 25.1264ZM68.0457 21.933C74.1271 21.933 79.0501 16.9977 79.0501 10.9011C79.0501 4.80447 74.1271 -0.130859 68.0457 -0.130859C61.9643 -0.130859 57.0413 4.80447 57.0413 10.9011C57.0413 16.9977 61.9643 21.933 68.0457 21.933ZM68.0457 4.80448C71.5208 4.80448 74.1271 7.4173 74.1271 10.9011C74.1271 14.3848 71.5208 16.9977 68.0457 16.9977C64.5706 16.9977 61.9643 14.3848 61.9643 10.9011C61.9643 7.70761 64.8602 4.80448 68.0457 4.80448ZM77.6021 25.1264H58.1997V30.0618H77.6021V25.1264Z" fill="#74D414"/>
                             </svg>
@@ -164,6 +168,7 @@
                                 <path d="M40.6673 21.7249C41.7304 21.7249 42.5458 21.9932 43.1135 22.5299C43.6812 23.0563 43.965 23.8407 43.965 24.8832V29.9304H42.9122V28.6609C42.6645 29.084 42.2981 29.4143 41.813 29.6517C41.3382 29.8891 40.7705 30.0078 40.11 30.0078C39.2017 30.0078 38.4792 29.7911 37.9425 29.3576C37.4058 28.9241 37.1374 28.3512 37.1374 27.639C37.1374 26.9475 37.3851 26.3901 37.8806 25.967C38.3863 25.5438 39.1862 25.3322 40.2803 25.3322H42.8658V24.8368C42.8658 24.1349 42.6697 23.6034 42.2775 23.2421C41.8853 22.8705 41.3124 22.6847 40.559 22.6847C40.0429 22.6847 39.5475 22.7725 39.0727 22.9479C38.5979 23.1131 38.1902 23.3453 37.8496 23.6446L37.3542 22.8241C37.767 22.4732 38.2624 22.2048 38.8404 22.019C39.4184 21.8229 40.0274 21.7249 40.6673 21.7249ZM40.2803 29.1408C40.8996 29.1408 41.4311 29.0015 41.8749 28.7228C42.3188 28.4338 42.6491 28.0209 42.8658 27.4842V26.1528H40.3112C38.9179 26.1528 38.2212 26.6379 38.2212 27.6081C38.2212 28.0829 38.4018 28.4596 38.763 28.7383C39.1243 29.0066 39.63 29.1408 40.2803 29.1408Z" fill="white"/>
                                 <path d="M46.9507 18.4426H48.0499V29.9304H46.9507V18.4426Z" fill="white"/>
                                 </svg>
+                            </div>
                               <p class="footer-top-descr">
                                 Делаем более доступным и&nbsp;удобным, освоение любых знаний и&nbsp;навыков <br>
                                  для самореализации любого человека, независимо от&nbsp;способностей и&nbsp;географии
@@ -284,7 +289,7 @@
                             </ul>
                         </ul>
                               <ul class="footer-list-items-center footer-navbar">
-                                   <h3 class="foote-title">
+                                   <h3 class="footer-title">
                                         Работы
                                    </h3>
                                    <ul class="footer-navbar-list-items">
@@ -316,7 +321,7 @@
                                    </ul>
                               </ul>
                               <ul class="footer-list-items-center footer-contact">
-                                   <h3 class="foote-title">
+                                   <h3 class="footer-title">
                                        Контакты
                                    </h3>
                                     <a href="tel:+74957773793" class="footer-contact-tel footer-contact-link">
@@ -372,5 +377,6 @@
                     </div>
              </div>
       </footer>
+<script src="app.js"></script>
 </body>
 </html>
