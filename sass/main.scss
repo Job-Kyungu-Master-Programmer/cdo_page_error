@@ -503,30 +503,19 @@ Main===================================================*/
                              @include flex-row-center-center();
                              flex-direction: column;
                              text-align: center;
-                            //  z-index: 2;
+                             z-index: 2;
                              transform: translateX(8%);
                              width: 1113.04px;
-                            //  background: gray;
 
-                                      &::before {
-                                           content: "";
-                                           width: 800px;
-                                           height: 200px;
-                                           background-image: url('../img/massk-group-404-section.png');
-                                           background-position: center center;
-                                           background-size: contain;
-                                           background-repeat: no-repeat;
-
-                                           &::after {
-                                                 content: "";
-                                                  width: 800px;
-                                                  height: 200px;
-                                                  background-image: url('../img/ellipse-section.png');
-                                                  background-position: center center;
-                                                  background-size: contain;
-                                                  background-repeat: no-repeat;
-                                             }
-                                      }
+                                   //    &::before {
+                                   //         content: "";
+                                   //         width: 800px;
+                                   //         height: 200px;
+                                   //         background-image: url('../img/massk-group-404-section.png');
+                                   //         background-position: center center;
+                                   //         background-size: contain;
+                                   //         background-repeat: no-repeat;
+                                   //    }
 
 
 
