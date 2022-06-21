@@ -1,0 +1,68 @@
+
+
+/*
+
+
+
+ -- Group Functions---------------------*/ 
+
+/*--Flexbox-----*/
+@import url('https://fonts.googleapis.com/css2? family= Cormorant:ital,wght@1,700 & display=swap');
+
+
+
+@mixin flex {
+    display: flex;
+}
+
+@mixin flex-row-center {
+      display: flex;
+      align-items: center;
+}
+
+
+@mixin flex-row-center-center {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+}
+
+@mixin flex-row-around {
+   display: flex;
+   justify-content: space-around;
+}
+
+@mixin flex-row-around-center {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+@mixin flex-row-between {
+   display: flex;
+   justify-content: space-between;
+}
+
+@mixin flex-row-between-center {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+@mixin flex-block {
+       display: block;
+}
+
+
+/*-----Style list-----*/ 
+@mixin styleList {
+     padding: 0;
+     margin: 0;
+     list-style-type: none;
+}
+
+@mixin styleItem--link {
+      font: 400 18px / 136.85% 'Cormorant';
+      text-decoration: none;
+      color: $--gray--ColorText;
+}

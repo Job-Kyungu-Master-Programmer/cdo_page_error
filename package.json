@@ -1,0 +1,11 @@
+{
+  "name": "job-cdo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/style.css --style compressed"
+  },
+  "author": "Job",
+  "license": "ISC"
+}
