@@ -1,11 +1,19 @@
 {
   "name": "job-cdo",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch ./sass/main.scss:./css/style.css --style compressed"
   },
   "author": "Job",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Job-Kyungu-Master-Programmer/cdo_page_error.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Job-Kyungu-Master-Programmer/cdo_page_error/issues"
+  },
+  "homepage": "https://github.com/Job-Kyungu-Master-Programmer/cdo_page_error#readme",
+  "description": ""
 }
